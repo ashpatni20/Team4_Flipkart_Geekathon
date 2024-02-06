@@ -141,17 +141,26 @@ body {
     object-fit: cover;
     flex-direction: row;
     border-radius: 10px;
+    transition: all 0.5s;
     
 }
-.img_thumbnail img:hover{
-    transform: scale(1.1);
+img:hover{
+    transform: scale(1.02);
     cursor: pointer;
     box-shadow: #ddd;
 
 }
+
+.img_details{
+    transition: all 0.5s;
+    padding: 5px;
+    margin:5px;
+    text-align: center;
+}
 .img_details:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     cursor: pointer;
+    
 
 }
 

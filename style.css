@@ -12,10 +12,96 @@
 a {
     text-decoration: none;
 }
+/* .header{
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid magenta;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+}
+.header div{
+    border: 2px solid violet;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.inputClass{
+    width: 50%;
+    position: relative;
+    
+}
+.inputClass input{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: #f0f5ff;
+    padding: 0 40px;
+    border-radius: 8px;
+    
+}
+
+.searchBtn{
+    position: absolute;
+    
+    bottom: 15px;
+    font-size: 100px;
+    
+    padding: 5px;
+    
+    width: 40px;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    font-size: larger;
+    text-align: center;
+    border: 2px solid chocolate;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.LoginClass a{
+    display: flex;
+    padding: 0 px;
+}
+
+.circleImage{
+   
+    padding-right: 8px;
+}
+.sellerDots{
+  
+    border: 2px solid green;
+
+}
+.cartClass a{
+    display: flex;
+    padding: 0 10px;
+}
+
+.becomeSeller{
+    display: flex;
+    width: 100%;
+  
+    border: 10px solid red;
+} */
+
+
 
 .header {
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
     margin-right: 120px;
     padding: 10px 0 10px;
@@ -24,6 +110,7 @@ a {
     top: 0;
     background-color: white;
     width: 100%;
+    border: 5px solid maroon;
 }
 
 .header-logo {
@@ -33,10 +120,11 @@ a {
 .header-search {
     justify-content: space-around;
     border-radius: 10px;
+    width: 40%;
 }
 
 input[type="text"] {
-    width: 500px;
+    width: 70%;
     height: 35px;
     font-size: 18px;
     border: none;
@@ -48,24 +136,26 @@ input[type="text"] {
 
 .search_button {
     height: 35px;
-    width: 700px;
+    width: 100%;
     text-align: left;
-    vertical-align: top;
+    /* vertical-align: top; */
     font-size: large;
     color: #767373;
     background-color: #f0f5ff;
     border-radius: 10px;
     border: none;
+    display: flex;
+    align-items: center;
+    padding : 0 15px; 
+    gap: 5px;
 }
 
 .material-symbols-outlined {
-    gap: .2rem;
+    /* gap: .2rem; */
     background-color: white;
 }
 
-a {
-    /* background-color: white; */
-}
+
 
 .header-icons {
     display: flex;
@@ -79,8 +169,10 @@ a {
 .images-category {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     opacity: 1;
+    width: 100vw;
+    overflow: hidden;
 
 }
 
@@ -88,29 +180,40 @@ para-class {
     text-align: center;
 }
 
-.fashion {
+/* .fashion {
     display: flex;
 }
 
 .fashion-symbol {
     display: flex;
-}
+} */
 
-span {
+/* span {
     text-align: center;
     gap: .4rem;
+} */
+.images-category{
+    padding: 0 150px;
 }
-
 .category-class {
-    margin-right: 45px;
-    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+.cat_img{
+    display: flex;
+    justify-content: center;
 
 }
 
-.Applicanes-img {
+/* .Applicanes-img {
     margin-left: 30px;
     text-align: center;
-}
+} */
 
 /* owl Carousel banner */
 .banner-items {
@@ -188,7 +291,7 @@ span {
     /* border: 3px solid rebeccapurple; */
     overflow-x: hidden;
     /* overflow: scroll; */
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .top_deals_heading {
