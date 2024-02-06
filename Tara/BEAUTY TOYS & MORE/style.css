@@ -61,7 +61,7 @@ span{
     display: flex;
     align-items: center;
     padding: 15px 25px;
-    background-image: url(./assents/3525.jpg);
+    background-image: url(./assents/images.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -77,6 +77,9 @@ span{
     margin-bottom: 15px;
     margin-top: 15px;
     
+}
+.sidebar_category2 progress{
+    color: #2874f0;
 }
 h4{
     color: rgb(119, 118, 118);
@@ -141,23 +144,18 @@ body {
     object-fit: cover;
     flex-direction: row;
     border-radius: 10px;
+    box-shadow:  2px 2px #8888;
     transition: all 0.5s;
     
 }
-img:hover{
+.img_thumbnail img:hover{
     transform: scale(1.02);
     cursor: pointer;
     box-shadow: #ddd;
 
 }
-
 .img_details{
-    transition: all 0.5s;
-}
-.img_details:hover{
-    transform: scale(1.1);
     cursor: pointer;
-    
 
 }
 
@@ -344,12 +342,37 @@ img:hover{
 }
 
 
-/* transform: scale(1.1);
-.img_thumbnail img :hover{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 0 0;
-    margin-top: 25px;
-    overflow: hidden;
-    margin-left: 60px;
-} */
+
+
+.img_details{
+    background-color: #fff;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    max-width: 350px;
+    text-align: center;
+}
+.price{
+    color: #008000;
+    font-weight: bold;
+}
+.discount{
+    color:#ff0000;
+    font-weight: bold;
+}
+.info{
+    margin-top: 5px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    text-decoration: none;
+    width: 150px;
+}
