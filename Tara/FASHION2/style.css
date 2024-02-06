@@ -153,9 +153,12 @@ img:hover{
 
 .img_details{
     transition: all 0.5s;
+    padding: 5px;
+    margin:5px;
+    text-align: center;
 }
 .img_details:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     cursor: pointer;
     
 
