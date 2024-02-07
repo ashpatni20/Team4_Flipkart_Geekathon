@@ -18,4 +18,4 @@ To install and run this project, please follow these steps:
 1. Clone the repository:
 
    ```shell
- https://github.com/ashpatni20/Team4_Flipkart_Geekathon.git
+ Git clone https://github.com/ashpatni20/Team4_Flipkart_Geekathon.git
