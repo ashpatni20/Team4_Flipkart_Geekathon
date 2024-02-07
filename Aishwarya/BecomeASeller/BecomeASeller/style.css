@@ -40,6 +40,7 @@ a {
     align-items: center;
     text-align: center;
     width: 20%;
+    
 }
 .login {
     padding-left: 5%;
@@ -399,3 +400,34 @@ table {
     padding-left: 5px;
     color: #fff;
 }
+.classhamburger{
+    display: none;
+}
+/* @media screen and (min-width:240px) and (max-width:450px){
+    .navbar{
+        
+    }
+    .classhamburger{
+        display: block;
+    }
+    .optionName{
+        display: none;
+    }
+    .lastSection{
+        width: 80%;
+    }
+    .bannerHeading{
+        font-size: 2rem;
+        float: left;
+        left: 0;
+    }
+    .categorySection{
+        flex-direction: column;
+    }
+    .listSection{
+        width: 95%;
+    }
+    .banner img{
+        display: none;
+    }
+} */

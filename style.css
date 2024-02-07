@@ -330,7 +330,7 @@ para-class {
 
 /* Eight section must have */
 .eigthSection {
-    border: 2px solid red;
+    
     /* display: flex; */
     display: flex;
     /* justify-content: space-between; */
@@ -348,7 +348,7 @@ para-class {
     /* padding-top: 25px; */
     /* justify-content: space-between; */
     flex-wrap: wrap;
-    border: 2px solid royalblue;
+    
     gap: 20px;
 
 }
@@ -377,7 +377,7 @@ para-class {
     width: 33%;
     /* align-items: center; */
     flex-wrap: wrap;
-    border: 2px solid greenyellow;
+    
     gap: 10px;
 
 }
@@ -385,7 +385,7 @@ para-class {
 .lastleftContainer {
     width: 33%;
     height: 70vh;
-    border: 5px solid maroon;
+    
     overflow: hidden;
 
 }
@@ -705,6 +705,43 @@ para-class {
     }
     .cards{
         flex-direction: column;
+    }
+
+    .eigthSection{
+        flex-direction: column;
+        width: 100%;
+    }
+    .musthavesection{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        
+    }
+    .TravelPickseessential{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .lastleftContainer{
+        width: 100%;
+    }
+    .data{
+        flex-direction: row;
+        border: 2px solid red;
+        width: 100%;
+    }
+    .main_info{
+        flex-direction: column;
+    }
+    .main_link{
+        width: 20%;
+        border: 2px solid gray;
+        
+    }
+    .img{
+        height: 20px;
+        width: 20px;
+        margin-top: 30%;
     }
 } 
 
