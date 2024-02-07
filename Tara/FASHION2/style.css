@@ -592,3 +592,86 @@ img:hover{
     overflow: hidden;
     margin-left: 60px;
 } */
+
+
+/* @media screen and (min-width:240px) and (max-width:420px){
+    .main_right{
+        /* flex-direction: column; */
+        /* flex-wrap: wrap;
+        height: 100%;
+        width:100%;
+        border: 2px solid black;
+        display: flex; */
+    
+    /* } 
+
+    .images{
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100%;
+        width:100%;
+        padding: 0;
+        
+        
+    }
+    .sidebar{
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    
+
+    }
+    .main{
+        flex-direction: column;
+     */
+    
+        /* border:5px solid flex-direction: columgreen; */
+        
+    /* }
+    .footwear{
+        width:100%;
+        height:100%;
+        border: 2px solid blue;
+    }
+
+    
+
+    
+} */ 
+
+
+
+
+@media screen and (min-width:240px) and (max-width:420px) {
+    .main_right {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       height: 100%;
+       width: 100%;
+       position: relative;
+       top: 71rem;
+
+   } 
+
+   .images {
+
+       flex-direction: column;
+       flex-wrap: wrap;
+       height: 100%;
+       width: 100%;
+       padding: 0;
+
+   }
+
+   .main {
+
+       flex-direction: column;
+   
+
+
+   }
+
+
+} 
