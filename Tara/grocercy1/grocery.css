@@ -40,6 +40,12 @@ body {
 
 
 }
+.location{
+    color: white;
+    padding-right: -5px;
+}
+
+
 
 .search input {
     width: 380px;
@@ -62,6 +68,63 @@ body {
     color: white;
     text-decoration: none;
 } 
+.more{
+    /* border: 2px solid black; */
+    width: 12vh;
+    display: flex;
+    height: 5.5vh;
+    justify-content: center;
+    margin-top: 6px;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 5px;
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+.more .more1{
+    /* border: 2px solid black; */
+    width: 70%;
+    display: flex;
+    height: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-left: 0.3rem;
+}
+
+.more .arrow{
+    /* border: 2px solid black;  */
+    width: 30%;
+    height: 100%;
+    padding-top: 4px;
+    text-align: left;
+    margin-right: 5px;
+    /* align-items: center; */
+}
+
+.cart{
+    /* border:  2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vh;
+    /* padding-right: 5px; */
+    color: #fff;
+    font-weight: 600;
+    /* font-size: 16px; */
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.cart .cart_img{
+    /* border:  2px solid black; */
+    padding-right: 5px;
+}
+
+
+
+
 .main{
     background-color: #ddd;
     padding: 1rem;
@@ -75,6 +138,7 @@ p{
 }
 h3 {
     color: rgb(100, 99, 99);
+    margin-left: 5px;;
 }
 
 table,
@@ -126,6 +190,14 @@ td {
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 9px;
+}
+.about .title h3{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 9px;
+    padding-left: 0.9rem;
+
 }
 
 
@@ -261,4 +333,7 @@ td {
     text-align: left;
     padding-left: 5px;
     color: #fff;
+}
+@media (max-with: 900px){
+
 }

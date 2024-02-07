@@ -3,15 +3,210 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+/* body{
     padding: 0.5rem;;
+} */
+
+
+
+body{
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    font-size: 14px;
+    /* background-color: #f1f3f6;  */
+    color: #212121;
+    line-height: 1.4;
+} 
+
+.navbar{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 9vh;
+    background-color: #2874f0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
+
+.navbar .navbar_icon{
+    /* border: 2px solid black; */
+    padding: 7px 160px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar .navbar_icon .flip-icon{
+    /* border: 2px solid black;  */
+    width: 14vh;
+    height: 100%;
+    padding-top: 4px;
+}
+
+.navbar .navbar_icon .flip-icon .img{
+    /* border: 2px solid black; */
+    width: 14vh;
+    height: 50%;
+}
+
+.navbar .navbar_icon .flip-icon .img img{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+    /* padding: 5px 0; */
+}
+
+.navbar .navbar_icon .flip-icon .travel_txt{
+    /* border: 2px solid black; */
+    width: 14vh;
+    height: 50%;
+    display: flex;
+}
+
+.navbar .navbar_icon .flip-icon .travel_txt a{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 11px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    padding: 2px 2px;
+    text-decoration: none;
+}
+.navbar .navbar_icon .flip-icon .travel_txt a img{
+    /* border: 2px solid black; */
+    padding-bottom: 4px;
+}
+
+.navbar .navbar_icon .flip-icon .travel_txt a:hover{
+    text-decoration: underline;
+}
+
+.travel_txt a span{
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .search-input {
+    /* border: 2px solid black; */
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border: none;
+    width: 400px;
+    outline: none;
+    height: 6vh;
+  }  
+  
+    .search_icon{    
+    background-color: #fff;
+    height: 6vh;
+    width: 5vh;
+    text-align: center;
+    padding-top: 5px;
+    color: #2874f0;
+    cursor: pointer;
+  }
+
+.login{
+    /* border: 2px solid black; */
+    height: 5.5vh;
+    margin-top: 6px;
+    width: 15vh;
+    color: #2874f0;
+    font-weight: 600;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    /* height: 32px; */
+    padding: 7px 25px;
+    border: 1px solid #dbdbdb;
+}
+
+.login1{
+    /* border: 2px solid black; */
+    height: 5.5vh;
+    margin-top: 6px;
+    width: 25vh;
+    color: #fff;
+    font-weight: 600;
+   
+    cursor: pointer;
+    /* border-radius: 2px; */
+    /* height: 32px; */
+    padding: 9px 25px;
+    /* border: 1px solid #dbdbdb; */
+}
+
+.more{
+    /* border: 2px solid black; */
+    width: 12vh;
+    display: flex;
+    height: 5.5vh;
+    justify-content: center;
+    margin-top: 6px;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.more .more1{
+    /* border: 2px solid black; */
+    width: 70%;
+    display: flex;
+    height: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.more .arrow{
+    width: 30%;
+    height: 100%;
+    padding-top: 4px;
+    text-align: left;
+    margin-right: 5px;
+    
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vh;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.cart .cart_img{
+
+    padding-right: 5px;
+}
+
+
+
 .main {
     display: flex;
     overflow: hidden;
     width: 100%;
     height: calc(100vh - 70px);
     overflow-y: scroll;
+    margin-top: 50px;;
+    padding: 0.5rem;
     
 }
 .main_right {
@@ -160,13 +355,15 @@ body {
 }
 
 
-.paragraph h3 {
-    color: rgb(101, 96, 96);
+.paragraph h4 {
+    color: rgb(156, 156, 156);
+    padding: 0.5rem;
 }
 
-.paragraph p {
+.paragraph  .paragraph_text p {
     color: rgb(145, 143, 143);
     font-size: small;
+    padding: 0.5rem;
 }
 
 .data{
@@ -204,6 +401,14 @@ body {
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 9px;
+}
+.about .title h3{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 9px;
+    padding-left: 0.9rem;
+
 }
 
 
