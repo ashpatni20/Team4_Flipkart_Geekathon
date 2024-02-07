@@ -162,6 +162,12 @@
     line-height: 1.4;
 }
 
+.single_card_a a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
 .single_card_star{
     display: flex;
     justify-content: space-evenly;
@@ -185,7 +191,7 @@
 }
 .original{
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: #212121;
     font-family: Roboto,Arial,sans-serif;
@@ -491,3 +497,34 @@
     padding-left: 5px;
     color: #fff;
 }
+
+.smallnavbar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 34px;
+}
+
+.smallnavbar ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    justify-content: space-around;
+    list-style: none;
+    align-items:center;
+    padding: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+}
+
+.smallnavbar li a{
+    font-weight: 600;
+    height: 100%;
+    text-decoration: none;
+    color:#000;
+    font-family: Roboto,Arial,sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+}
+
