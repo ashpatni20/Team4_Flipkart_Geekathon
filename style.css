@@ -11,93 +11,13 @@
 
 a {
     text-decoration: none;
-}
-/* .header{
-    display: flex;
-    justify-content: space-around;
-    border: 5px solid magenta;
-    position: fixed;
-    width: 100%;
-    background-color: white;
-
-}
-.header div{
-    border: 2px solid violet;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-}
-.inputClass{
-    width: 50%;
-    position: relative;
-    
-}
-.inputClass input{
-    width: 100%;
-    height: 100%;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    box-shadow: none;
-    background-color: #f0f5ff;
-    padding: 0 40px;
-    border-radius: 8px;
-    
-}
-
-.searchBtn{
-    position: absolute;
-    
-    bottom: 15px;
-    font-size: 100px;
-    
-    padding: 5px;
-    
-    width: 40px;
-
-}
-.icons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 30%;
-    font-size: larger;
-    text-align: center;
-    border: 2px solid chocolate;
-    
-}
-a{
-    text-decoration: none;
     color: black;
 }
-.LoginClass a{
-    display: flex;
-    padding: 0 px;
+.mainContainer{
+    /* height: 100vh;
+    width: 100vw;
+    overflow: scroll; */
 }
-
-.circleImage{
-   
-    padding-right: 8px;
-}
-.sellerDots{
-  
-    border: 2px solid green;
-
-}
-.cartClass a{
-    display: flex;
-    padding: 0 10px;
-}
-
-.becomeSeller{
-    display: flex;
-    width: 100%;
-  
-    border: 10px solid red;
-} */
-
-
-
 .header {
     display: flex;
     align-items: center;
@@ -110,7 +30,7 @@ a{
     top: 0;
     background-color: white;
     width: 100%;
-    border: 5px solid maroon;
+    /* border: 5px solid maroon; */
 }
 
 .header-logo {
@@ -708,3 +628,55 @@ para-class {
     padding-left: 5px;
     color: #fff;
 }
+
+@media screen and (min-width:240px ) and (max-width:425px){
+   
+    .header-logo {
+        position: relative;
+        left: -50px;
+    }
+    .header{
+       
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 20%;
+        padding: 0;
+    }
+
+    .header-search{
+        flex-direction: row;
+        position: relative;
+        left: -40px;
+        width: 50%;
+    }
+    .material-symbols-outlined{
+        flex-direction: row;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+
+    }
+    .header-icons{
+        display: flex;
+        align-items: center;
+    }
+    .header-icons a{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .images-category{
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .category-class {
+        flex-direction: column;
+        width: 30%;
+        
+    }
+
+} 
+
+
