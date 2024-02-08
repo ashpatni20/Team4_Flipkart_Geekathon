@@ -202,8 +202,43 @@ body{
     padding-top: 7px;
 }
 
+.smallnavbar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+}
+
+.smallnavbar ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    justify-content: space-around;
+    list-style: none;
+    align-items:center;
+    padding: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+}
+
+.smallnavbar li a{
+    font-weight: 600;
+    height: 100%;
+    text-decoration: none;
+    color:#000;
+    font-family: Roboto,Arial,sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.smallnavbar li a:hover{
+    color:blue;
+    
+}
+
 .container{   
-    margin-top: 9vh;
+    margin-top: 1vh;
     padding: 8px;
 }
 
@@ -378,6 +413,7 @@ body{
     display: block;
     float: right;
 }
+
 
 .materials_content h2{
     font-size: 20px;
@@ -785,7 +821,8 @@ body{
 } 
 
 .data{
-    margin-top: 35px;    
+    margin-top: 35px;
+   
     padding-top: 30px;
     background-color: #172337; 
     
@@ -800,12 +837,15 @@ body{
     justify-content: center;
 }
 
-.data .main_info .about{    
+.data .main_info .about{
+    
     width: 22vh;
-    margin-right: 10px;    
+    margin-right: 10px;
+   
 }
 
-.about .title{    
+.about .title{
+   
     color: #878787;
     font-size: 12px;
     font-weight: 400;
@@ -813,8 +853,10 @@ body{
 }
 
 
-.data .main_info .about .alink{    
-    text-align: left;    
+.data .main_info .about .alink{
+    
+    text-align: left;
+    
 }
 
 .data .main_info .about .alink a{
@@ -822,7 +864,8 @@ body{
     font-family: Roboto,Arial,sans-serif;
     font-weight: 400;
     color: #fff; 
-    font-size: 12px;    
+    font-size: 12px;
+    
     text-align: left;
 }
 
@@ -835,10 +878,12 @@ body{
 }
 
 .data .main_info .about_border{
-    margin-left: 10px;    
+    margin-left: 10px;
+    
     width: 49vh;
     height: 21vh;
-    padding-left: 40px;   
+    padding-left: 40px;
+    
     border-left: 2px solid rgba(177, 173, 173, 0.348);
 }
 
@@ -849,7 +894,8 @@ body{
     margin-bottom: 9px;
 }
 
-.about_consumer{    
+.about_consumer{
+    
     width: 28vh;
     margin-right: 10px;    
 }
@@ -866,16 +912,19 @@ body{
     font-family: Roboto,Arial,sans-serif;
     font-weight: 400;
     color: #fff; 
-    font-size: 12px;    
+    font-size: 12px;
+    
     text-align: left;
 }
 
 .data .main_info .about_border p{
-    font-size: 12px;   
+    font-size: 12px;
+    
     text-align: left;
     color: #fff;
     line-height: 1.5;
-    display: block;    
+    display: block;
+    
 }
 
 .data .main_info .about_borders h3{
@@ -886,36 +935,46 @@ body{
 }
 
 .data .main_info .about_borders p{
-    font-size: 12px;    
+    font-size: 12px;
+    
     text-align: left;
     color: #fff;
     line-height: 1.5;
-    display: block;    
+    display: block;
+    
 }
 
 .data .main_info .about_borders{
-    margin-left: 10px;    
+    margin-left: 10px;
+    
     width: 49vh;
     height: 21vh;
-    padding-left: 40px;    
+    padding-left: 40px;
+   
 }
 
-.about_borders .alink p a{    
+.about_borders .alink p a{
+    
     text-decoration: none;  
     color: #2874f0;   
 }
 
-.main_link{    
+.main_link{
+    
     display: flex;
     justify-content: space-between;
     padding: 20px 65px;
 }
 
-.main_link .img{
+.main_link .images .img{
     padding-right: 45px;
 }
 
-.main_link .img .edit{
+.images{
+    display: flex;
+}
+
+.main_link .images .img .edit{
     font-family: Roboto,Arial,sans-serif;
     letter-spacing: 0;
     text-align: left;
@@ -931,3 +990,337 @@ body{
     padding-left: 5px;
     color: #fff;
 }
+
+.main_block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.images .images1 img{
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+@media screen and (min-width:240px) and (max-width:425px){
+    .container{
+        width: 100%;
+        height: 100%;        
+    } 
+    
+    .main_page{
+        width: 100%;
+        height: 100%;        
+    }
+    
+    .materials_bestseller{
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .materials_all-1{    
+        width: 100%; 
+        height: 100%;
+        flex-wrap: wrap;
+    } 
+
+    .materials_all-1 .products{
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
+    }
+
+    .materials_content div a{    
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 2px;
+        padding: 10px;
+        font-size: 8px;
+        font-weight: 500;   
+        vertical-align: super;
+        cursor: pointer;    
+        background: #2874f0;
+        color: #fff;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        border: none;
+        flex-wrap: wrap;
+    } 
+
+    .items{
+        width: 100%;
+        height: 100%;
+    }
+
+    .items .farniture_items{   
+       
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+        
+        
+    }
+
+    .items .farniture_items .item_1{   
+       
+        width: 100%;
+        height: 100%;     
+    } 
+
+    .data{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;        
+    }
+
+    .data .main_info{     
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-bottom: 1px solid rgba(177, 173, 173, 0.348); 
+        width: 100%;
+        height: 100%;
+        padding: 0%;        
+    }
+
+    .data .main_info .about,.about_consumer{
+        width: 100%;       
+        margin-top: 10px;
+        padding: 0px 5px;
+        border: none;
+    }
+
+    .data .main_info .about_border{
+        width: 100%;        
+        margin: 10px 0 0 0;
+        padding: 0px 5px;
+        height: 100%;
+        border: none;
+    }
+
+    .data .main_info .about_borders{
+        width: 100%;        
+        margin: 10px 0 0 0;
+        padding: 0px 5px;
+        height: 100%;       
+    }
+    
+    .main_link{
+    
+        display: flex;
+        flex-direction: row;
+        padding: 5px 0;       
+        width: 100%;
+        height: 100%;       
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0%;
+
+    }
+   
+    .images .images1{
+        width: 100%;
+    }   
+
+}   
+
+@media screen and (min-width:426px) and (max-width:768px){
+    .container{
+        width: 100%;
+        height: 100%;
+        
+    } 
+    
+    .main_page{
+        width: 100%;
+        height: 100%;        
+    }
+    
+    .materials_bestseller{
+        width: 100%;
+        height: 100%;
+    }
+
+    .materials_all-1{    
+        width: 100%; 
+        height: 100%;
+    } 
+
+    .materials_all-1 .products{
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .materials_content h2{
+        font-size: 12px;
+        line-height: 32px;
+        display: inline-block;
+        font-weight: 400px;
+    }
+
+    .materials_content div a{    
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 2px;
+        padding: 10px;
+        font-size: 8px;
+        font-weight: 500;   
+        vertical-align: super;
+        cursor: pointer;    
+        background: #2874f0;
+        color: #fff;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+        border: none;
+    }    
+
+    .materials_content h3{
+        font-size: 10px;
+        color: #b2b2b2;
+        font-weight: 400;
+    }
+
+    .items{
+        width: 100%;
+        height: 100%;
+    }
+
+    .items .farniture_items{   
+       
+        display: flex;
+        flex-direction: row; 
+        width: 100%;
+        
+        
+    }
+
+    .items .farniture_items .item_1{   
+       
+        width: 100%;
+        height: 100%;     
+    } 
+
+    .data{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .data .main_info{     
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-bottom: 1px solid rgba(177, 173, 173, 0.348); 
+        width: 100%;
+        height: 100%;
+        padding: 0%;
+       
+    }
+
+    .data .main_info .about,.about_consumer{
+        width: 100%;
+        
+        margin-top: 10px;
+        padding: 0px 5px;
+        border: none;
+    }
+
+    .data .main_info .about_border{
+        width: 100%;
+        
+        margin: 10px 0 0 0;
+        padding: 0px 5px;
+        height: 100%;
+        border: none;
+    }
+
+    .data .main_info .about_borders{
+        width: 100%;
+        
+        margin: 10px 0 0 0;
+        padding: 0px 5px;
+        height: 100%;       
+    }
+    
+    .main_link{
+    
+        display: flex;
+        flex-direction: row;
+        padding: 5px 0;
+        
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0%;
+
+    }
+   
+    .images .images1{
+        width: 100%;
+    }
+
+} 
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .container{
+        width: 100%;
+        height: 100%;
+        
+    } 
+    
+    .main_page{
+        width: 100%;
+        height: 100%;        
+    }
+    
+    .materials_bestseller{
+        width: 100%;
+        height: 100%;
+    }
+
+    .materials_all-1{    
+        width: 100%; 
+        height: 100%;
+    } 
+
+    .materials_all-1 .products{
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }         
+
+    .items{
+        width: 100%;
+        height: 100%;
+    }
+
+    .items .farniture_items{   
+       
+        display: flex;
+        flex-direction: row; 
+        width: 100%;     
+       
+    }
+
+    .items .farniture_items .item_1{   
+       
+        width: 100%;
+        height: 100%;     
+    } 
+ 
+}    
