@@ -755,6 +755,47 @@ table, th, td {
     color: #fff;
 }
 
+.smallnavbar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 34px;
+}
+
+.smallnavbar ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    justify-content: space-around;
+    list-style: none;
+    align-items:center;
+    padding: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+}
+
+/* .smallnavbar li{
+    width:100%;
+} */
+
+.smallnavbar li a{
+    font-weight: 600;
+    height: 100%;
+    text-decoration: none;
+    color:#000;
+    font-family: Roboto,Arial,sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.smallnavbar li a:hover{
+    color:blue;
+    
+}
+
+
+
 @media screen and (min-width:240px ) and (max-width:425px){
     .sidebar{
         width:35%;
