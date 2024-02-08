@@ -119,6 +119,7 @@ body {
     padding-top: 5px;
     color: #2874f0;
     cursor: pointer;
+    padding-right: 60px;
 }
 
 .login {
@@ -200,6 +201,46 @@ body {
 }
 
 
+.smallnavbar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.smallnavbar ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    justify-content: space-around;
+    list-style: none;
+    align-items:center;
+    padding: 10px;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+}
+
+.smallnavbar li a{
+    font-weight: 600;
+    height: 100%;
+    text-decoration: none;
+    color:#000;
+    font-family: Roboto,Arial,sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .main {
     display: flex;
@@ -207,7 +248,7 @@ body {
     width: 100%;
     height: calc(100vh - 70px);
     overflow-y: scroll;
-    margin-top: 50px;
+    margin-top: 5px;
     ;
     padding: 0.5rem;
 
@@ -218,6 +259,7 @@ body {
     text-align: start;
     flex-direction: column;
     width: calc(100% - 300px);
+    margin-top: 5px;
 
 
 
