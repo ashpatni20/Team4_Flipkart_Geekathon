@@ -518,6 +518,10 @@
     letter-spacing: 0;
 }
 
+/* .smallnavbar li{
+    width:100%;
+} */
+
 .smallnavbar li a{
     font-weight: 600;
     height: 100%;
@@ -526,5 +530,10 @@
     font-family: Roboto,Arial,sans-serif;
     cursor: pointer;
     font-size: 14px;
+}
+
+.smallnavbar li a:hover{
+    color:blue;
+    
 }
 
