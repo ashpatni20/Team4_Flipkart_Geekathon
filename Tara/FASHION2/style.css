@@ -616,63 +616,18 @@ img:hover{
     color: #fff;
 }
 
-
-/* transform: scale(1.1);
-.img_thumbnail img :hover{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 0 0;
-    margin-top: 25px;
-    overflow: hidden;
-    margin-left: 60px;
-} */
-
-
-/* @media screen and (min-width:240px) and (max-width:420px){
-    .main_right{
-        /* flex-direction: column; */
-        /* flex-wrap: wrap;
-        height: 100%;
-        width:100%;
-        border: 2px solid black;
-        display: flex; */
-    
-    /* } 
-
-    .images{
-        
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 100%;
-        width:100%;
-        padding: 0;
-        
-        
-    }
-    .sidebar{
-    height: 100%;
+.main_block{
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    border: 2px solid red;
-    
+}
 
-    }
-    .main{
-        flex-direction: column;
-     */
-    
-        /* border:5px solid flex-direction: columgreen; */
-        
-    /* }
-    .footwear{
-        width:100%;
-        height:100%;
-        border: 2px solid blue;
-    }
+.images2 .images1 img{
+    width: 100%;
+    /* border: 2px solid black; */
+}
 
-    
 
-    
-} */ 
 
 
 
@@ -706,6 +661,72 @@ img:hover{
 
 
    }
+
+   .data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.data .main_info{     
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(177, 173, 173, 0.348); 
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+   
+}
+
+.data .main_info .about,.about_consumer{
+    width: 100%;
+    
+    margin-top: 10px;
+    padding: 0px 5px;
+    border: none;
+}
+
+.data .main_info .about_border{
+    width: 100%;
+    
+    margin: 10px 0 0 0;
+    padding: 0px 5px;
+    height: 100%;
+    border: none;
+}
+
+.data .main_info .about_borders{
+    width: 100%;
+    
+    margin: 10px 0 0 0;
+    padding: 0px 5px;
+    height: 100%;       
+}
+
+.main_link{
+
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.images2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0%;
+
+}
+
+.images2 .images1{
+    width: 100%;
+}
 
 
 } 
