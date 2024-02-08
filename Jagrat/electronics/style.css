@@ -126,6 +126,19 @@
     height: 150px;
     width: 150px;
 }
+/* .single_card_a{
+    font-size: 12px;
+    margin-top: 12px;
+    color: black;
+    font-family: Roboto,Arial,sans-serif;
+    text-align: center;  
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    line-height: 1.4;
+} */
+
 .single_card_a{
     font-size: 12px;
     margin-top: 12px;
@@ -137,6 +150,18 @@
     font-family: Roboto,Arial,sans-serif;
     letter-spacing: 0;
     line-height: 1.4;
+}
+
+.single_card_a a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.single_card_a a:hover{
+    text-decoration: underline;
+    color: blue;
+    font-weight: 500;
 }
 
 .single_card_star{
@@ -162,7 +187,7 @@
 }
 .original{
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: #212121;
     font-family: Roboto,Arial,sans-serif;
