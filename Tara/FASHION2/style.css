@@ -246,6 +246,7 @@ body{
     text-align: start;
     flex-direction: column;
     width: calc(100% - 300px);
+    margin-top: -10px;
 
 
 
@@ -266,6 +267,7 @@ span{
 .main_right p {
     color: rgb(184, 178, 178);
     font-size: small;
+    padding: 0.5rem;
     padding: 0.5rem;
 
 }
@@ -339,7 +341,7 @@ h3 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.images {
+.images2 {
     background-color: #f9f9f9;
     width: 100%;
     height: 100%;
@@ -413,32 +415,9 @@ img:hover{
 
 
 
-/* .paragraph .pragraph_text p{
-    color: #ddd;
-    font-size: small;
-} */
-
-
-/* .p {
-    color: rgb(184, 178, 178);
-    font-size: small;
-    padding: 0.5rem;
-
-} */
-/* .paragraph h3 {
-    color: rgb(101, 96, 96);
-}
-
-.paragraph  .paragraph_text p {
-    color: rgb(145, 143, 143);
-    font-size: small;
-} */
-
-
 .data{
     margin-top: 35px;
-    /* border: 2px solid black; */
-    /* height: 60vh; */
+   
     padding-top: 30px;
     background-color: #172337; 
     
@@ -454,36 +433,23 @@ img:hover{
 }
 
 .data .main_info .about{
-    /* border: 2px solid black; */
+    
     width: 22vh;
     margin-right: 10px;
-    /* height: 100%; */
+   
 }
 
 .about .title{
-    /* border: 2px solid black; */
-    /* color: #878787;
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 9px; */
+   
     color: #878787;
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 9px;
-    padding-left: 0.9rem;;
-}
-
-.about .title h3{
-    color: #878787;
-    font-size: 12px;
-    font-weight: 600;
-    margin-bottom: 9px;
-
 }
 
 
 .data .main_info .about .alink{
-    /* border: 2px solid black; */
+    
     text-align: left;
     
 }
@@ -494,17 +460,25 @@ img:hover{
     font-weight: 400;
     color: #fff; 
     font-size: 12px;
-    /* padding: 0 5px; */
+    
     text-align: left;
+}
+
+.data .main_info .about .link a:hover{
+    text-decoration: underline;
+}
+
+.data .main_info .about_consumer .link a:hover{
+    text-decoration: underline;
 }
 
 .data .main_info .about_border{
     margin-left: 10px;
-    /* border: 2px solid black; */
+    
     width: 49vh;
     height: 21vh;
     padding-left: 40px;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.348); */
+    
     border-left: 2px solid rgba(177, 173, 173, 0.348);
 }
 
@@ -516,7 +490,7 @@ img:hover{
 }
 
 .about_consumer{
-    /* border: 2px solid black; */
+    
     width: 28vh;
     margin-right: 10px;    
 }
@@ -534,21 +508,18 @@ img:hover{
     font-weight: 400;
     color: #fff; 
     font-size: 12px;
-    /* padding: 0 5px; */
+    
     text-align: left;
 }
 
 .data .main_info .about_border p{
     font-size: 12px;
-    /* padding: 0 5px; */
+    
     text-align: left;
     color: #fff;
     line-height: 1.5;
     display: block;
-    /* margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */
+    
 }
 
 .data .main_info .about_borders h3{
@@ -560,46 +531,45 @@ img:hover{
 
 .data .main_info .about_borders p{
     font-size: 12px;
-    /* padding: 0 5px; */
+    
     text-align: left;
     color: #fff;
     line-height: 1.5;
     display: block;
-    /* margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */
+    
 }
 
 .data .main_info .about_borders{
     margin-left: 10px;
-    /* border: 2px solid black; */
+    
     width: 49vh;
     height: 21vh;
     padding-left: 40px;
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.348); */
-    /* border-left: 2px solid rgba(177, 173, 173, 0.348); */
+   
 }
 
 .about_borders .alink p a{
-    /* color: rgb(5, 5, 150);
-    font-weight: bold;   */
+    
     text-decoration: none;  
     color: #2874f0;   
 }
 
 .main_link{
-    /* border: 2px solid black; */
+    
     display: flex;
     justify-content: space-between;
     padding: 20px 65px;
 }
 
-.main_link .img{
+.main_link .images .img{
     padding-right: 45px;
 }
 
-.main_link .img .edit{
+.images{
+    display: flex;
+}
+
+.main_link .images .img .edit{
     font-family: Roboto,Arial,sans-serif;
     letter-spacing: 0;
     text-align: left;
@@ -622,10 +592,13 @@ img:hover{
     width: 100%;
 }
 
-.images2 .images1 img{
+.images .images1 img{
     width: 100%;
     /* border: 2px solid black; */
 }
+
+
+
 
 
 
@@ -640,7 +613,7 @@ img:hover{
        height: 100%;
        width: 100%;
        position: relative;
-       top: 71rem;
+       top: 73rem;
 
    } 
 
@@ -724,7 +697,7 @@ img:hover{
 
 }
 
-.images2 .images1{
+.images .images1{
     width: 100%;
 }
 
