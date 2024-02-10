@@ -363,6 +363,7 @@ table, th, td {
     flex-direction: column;
     width: 280px;
     height: 260px;
+
 }
 
 /* .single_card_image{
@@ -377,7 +378,16 @@ table, th, td {
 .single_card_image img{
     height: 150px;
     width: 150px;
+    transition: all 0.5s;
 }
+.single_card_image img:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: #ddd;
+
+}
+
+
 .single_card_a{
     font-size: 12px;
     margin-top: 12px;
